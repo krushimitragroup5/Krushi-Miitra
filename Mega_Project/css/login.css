@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(to right, green, yellow, green);
+}
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+}
+.form-control{
+    background-color: transparent;
+    color: rgba(0,0,0,.42);
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 253, 253);
+    border-radius: 10px;
+    color: black;
+}
+body{
+    background-color: rgb(150, 255, 160);
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #096212;
+}
+
+.container-fluid-lg{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+.navbar{
+    background-color: #56fe67;
+    border-radius: 20px;
+}
+.navbar .nav-link{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+.nav-link:hover,
+.nav-link:active{
+    background-color: rgba(57, 213, 36, 0.985);  
+}
+.img{
+    background-color: white;
+    width: 80px;
+    height: 60px;
+    margin-left: 10px;
+}
+form button{
+    width: 100%;
+}
+label, .custom-control-label{
+    font-weight: bold;
+}
+.nav .nav-item .nav-link{
+    font-weight: bold;
+}
+
+
+form .error-msg{
+margin: 10px 0;
+display: block;
+background-color: crimson;
+color: #fff;
+border-radius: 5px;
+font-size: 20px;
+}
